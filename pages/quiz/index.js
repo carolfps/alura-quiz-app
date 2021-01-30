@@ -1,13 +1,14 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import styled from 'styled-components';
-import AlternativesForm from '../src/components/AlternativesForm';
-import QuizContainer from '../src/components/QuizContainer';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizLogo from '../src/components/QuizLogo';
-import Widget from '../src/components/Widget';
-import db from '../db.json';
-import Button from '../src/components/Button';
+import AlternativesForm from '../../src/components/AlternativesForm';
+import QuizContainer from '../../src/components/QuizContainer';
+import QuizBackground from '../../src/components/QuizBackground';
+import QuizLogo from '../../src/components/QuizLogo';
+import Widget from '../../src/components/Widget';
+import db from '../../db.json';
+import Button from '../../src/components/Button';
+import BackLinkArrow from '../../src/components/BackLinkArrow';
 
 const LoadingSpinner = styled.div`
 display: inline-block;
@@ -87,21 +88,21 @@ function ResultWidget({ results }) {
   return (
     <Widget>
       <Widget.Header>
-        Tela de resultado
+        Resultado
       </Widget.Header>
       <Widget.Content>
         <p>
           {`Você acertou 
           ${results.filter((x) => x === true).length}
-           perguntas`}
+           perguntas! 🎉🎉🎉`}
         </p>
-        <ul>
+        {/* <ul>
           {results.map((result, index) => (
             <li key={`result__${result}`}>
               {`#${index + 1} Resultado: ${result === true ? 'Acertou' : 'Errou'}`}
             </li>
           ))}
-        </ul>
+        </ul> */}
       </Widget.Content>
     </Widget>
   );
@@ -122,6 +123,7 @@ function QuestionWidget({
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/" />
         <h3>
           {`Pergunta ${questionIndex + 1} de ${totalQuestions}`}
         </h3>
@@ -225,7 +227,7 @@ export default function QuizPage() {
   }
 
   return (
-    <QuizBackground>
+    <QuizBackground backgroundImage={db.bg2}>
       <QuizContainer>
         <QuizLogo />
         {screenState === screenStates.QUIZ && (
