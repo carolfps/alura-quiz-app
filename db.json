@@ -4,92 +4,92 @@
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Which of the following movies was not based on a novel by Stephen King?",
+        "image": "https://media.giphy.com/media/NipFetnQOuKhW/giphy.gif",
+        "title": "Qual dos seguintes filmes não foi baseado em um livro do Stephen King?",
         "description": "Essa é pra aquecer",
+        "answer": 0,
+        "alternatives": [
+          "O enigma de outro mundo",
+          "Carrie, a estranha",
+          "Louca obsessão",
+          "À espera de um milagre"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/5ndfKr0Nv92LkWrKpU/giphy.gif",
+        "title": "Qual filme contém a famosa frase 'Houston, we have a problem'?",
+        "description": "",
         "answer": 2,
         "alternatives": [
-          "The Thing",
-          "Carrie",
-          "Misery",
-          "The Green Mile"
+          "Os eleitos",
+          "Capricórnio Um",
+          "Apollo 13 - Do desastre ao triunfo",
+          "Sem rumo no espaço"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Which movie released in 2016 features Superman and Batman fighting?",
+        "image": "https://media.giphy.com/media/2kWd9gXy6owFLR8LuS/giphy.gif",
+        "title": "Quem dirigiu o filme E.T.: O extraterrestre (1982)?",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+          "Stanley Kubrick",
+          "Steven Spielberg",
+          "James Cameron",
+          "Tim Burton"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/3oz8xQpQrBtbpyrfyw/giphy.gif",
+        "title": "Qual é o título do primeiro filme do James Bond, lançado em 1962?",
         "description": "",
         "answer": 0,
         "alternatives": [
-           "Batman v Superman: Dawn of Justice",
-           "Batman v Superman: Superapocalypse",
-           "Batman v Superman: Black of Knight",
-           "Batman v Superman: Knightfall"
+           "007 contra o Satânico Dr. No",
+           "Moscou contra 007",
+           "007 contra Goldfinger",
+           "007 contra a Chantagem Atômica"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Who directed E.T. the Extra-Terrestrial (1982)?",
+        "image": "https://media.giphy.com/media/vVGzlimI9KAOQ/giphy.gif",
+        "title": "O filme Operação Big Hero se passa em qual cidade fictícia?",
         "description": "",
-        "answer": 0,
+        "answer": 3,
         "alternatives": [
-           "Steven Spielberg",
-           "Stanley Kubrick",
-           "James Cameron",
-           "Tim Burton"
+          "San Tokyo",
+          "Tokysisco",
+          "Sankyo",
+          "San Fransokyo"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "What was the title of the first Bond movie, released in 1962?",
+        "image": "https://media.giphy.com/media/Qumf2QovTD4QxHPjy5/giphy.gif",
+        "title": "Quem estrelou como Bruce Wayne no filme Batman dirigido por Tim Burton em 1989?",
         "description": "",
-        "answer": 0,
+        "answer": 2,
         "alternatives": [
-           "Dr. No",
-           "From Russia with Love",
-           "Goldfinger",
-           "Thunderball"
+          "George Clooney",
+          "Val Kilmer",
+          "Michael Keaton",
+          "Adam West"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "In Big Hero 6, what fictional city is the Big Hero 6 from?",
+        "image": "https://media.giphy.com/media/ADgfsbHcS62Jy/giphy.gif",
+        "title": "Qual é o filme com maior bilheteria da história (sem ajustar com a inflação)?",
         "description": "",
-        "answer": 0,
+        "answer": 1,
         "alternatives": [
-           "San Fransokyo",
-           "San Tokyo",
-           "Tokysisco",
-           "Sankyo"
+          "Jurassic World: O Mundo dos Dinossauros",
+          "Vingadores: Endgame",
+          "Avatar",
+          "Titanic"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Who starred as Bruce Wayne and Batman in Tim Burton's 1989 movie Batman?",
-        "description": "",
-        "answer": 0,
-        "alternatives": [
-           "Michael Keaton",
-           "George Clooney",
-           "Val Kilmer",
-           "Adam West"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "What is the highest grossing film of all time (without adjusting for inflation)?",
-        "description": "",
-        "answer": 0,
-        "alternatives": [
-           "Avengers: Endgame",
-           "Jurassic World",
-           "Avatar",
-           "Titanic"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Which actor plays Obi-Wan Kenobi in Star Wars Episodes I-lll?",
+        "image": "https://media.giphy.com/media/33iqmp5ATXT5m/giphy.gif",
+        "title": "Qual ator interpretou Obi-Wan Kenobi em Star Wars Episódios I-III?",
         "description": "",
         "answer": 0,
         "alternatives": [
@@ -100,27 +100,27 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Who played Batman in the 1997 film Batman and Robin?",
+        "image": "https://media.giphy.com/media/84ZzhsJZWlE3e/giphy.gif",
+        "title": "Qual foi o primeiro filme de animação da Disney",
         "description": "",
-        "answer": 0,
+        "answer": 1,
         "alternatives": [
-           "George Clooney",
-           "Michael Keaton",
-           "Val Kilmer",
-           "Christian Bale"
+           "Pinóquio",
+           "Branca de neve e os sete anões",
+           "Fantasia",
+           "Dumbo"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "What is the name of the island that Jurassic Park is built on?",
+        "image": "https://media.giphy.com/media/hu1TLAaubiak9S4GT6/giphy.gif",
+        "title": "Qual é o nome da ilha do filme Jurassic Park?",
         "description": "",
-        "answer": 0,
+        "answer": 3,
         "alternatives": [
-           "Isla Nublar",
-           "Isla Sorna",
-           "Isla Muerta",
-           "Isla Pena"
+          "Isla Sorna",
+          "Isla Muerta",
+          "Isla Pena",
+          "Isla Nublar"
         ]
       }
     ],
